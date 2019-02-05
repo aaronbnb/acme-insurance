@@ -112,6 +112,10 @@ form .form-control.is-valid {
     color: #ffffff38;
 }
 
+.carousel-caption {
+    padding: 20px;
+}
+
 @media screen and (orientation: landscape) {
     .is-landscape-oriented #landscape-overlay {
         display: block;
