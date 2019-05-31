@@ -12,6 +12,7 @@ $( function () {
   }
 
   $( "#upbeat-motivation-tune" ).get( 0 ).volume = 0.1
+  $( "#upbeat-motivation-tune" ).get( 0 ).play();
 
   $( "#ceo-portrait" ).tooltip().focus( function ( e ) {
     $( this ).tooltip( "show" );
