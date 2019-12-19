@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex nofollow">
+  <title>TPG Sample Page test Page Description</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2em;
+      padding: 20px 50px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: rgb(16, 3, 53);
+      font-weight: bold;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: rgb(58, 58, 58);
+      border-left: 0.2em solid rgb(58, 58, 58);
+      background: rgb(238, 238, 238);
+      padding-left: 0.3em;
+    }
+
+    blockquote::before,
+    blockquote::after {
+      content: "\"";
+      font-size: 1.1em;
+      color: rgb(101, 1, 1);
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>TPG Sample Page Test Page Description</h1>
+  <p>Visually, the sample page contains the following sections and content:</p>
+  <h2>Navigation menu</h2>
+  <p>A list of five items:</p>
+  <ol>
+    <li>About us</li>
+    <li>Our goals and vision</li>
+    <li>Portfolio</li>
+    <li>FAQs</li>
+    <li>Contact</li>
+  </ol>
+  <p>The second item is visually styled to represent the current page.</p>
+  <h2>Jumbotron</h2>
+  <p>A large area near the top of the page, contaning the following:</p>
+  <ol>
+    <li>A large heading with the text "Our goals and Vision".</li>
+    <li>A quote by the company founder, Mark Smith.</li>
+    <li>A Stock photo background of a smiling woman.</li>
+  </ol>
+  <h2>Find out what role you can play in our corporate family</h2>
+  <p>This section contains the following:</p>
+  <ol>
+    <li>A medium sized heading, with the text "Find out what role you can play in our corporate family".</li>
+    <li>A tablist with three tabs: "Client", "Saff", and "Contractor". The individual tab panel contents are described
+      below.</li>
+  </ol>
+  <h3>Client tab</h3>
+  <p>The tab panel contains the following:</p>
+  <ol>
+    <li>A small heading, with the text "Client".</li>
+    <li>Styled text and icons: "Our approach to solving your problems: Problems + Us = Solutions".</li>
+  </ol>
+  <h3>Staff tab</h3>
+  <p>The tab panel contains the following:</p>
+  <ol>
+    <li>A small heading, with the text "Staff".</li>
+    <li>A table with four columns:
+      <ul>
+        <li>The column headers are "Function", "Salary", "Full Time", "Contact".</li>
+        <li>The first, third and fourth cells in the "Full Time" column contain green checkmark icons.</li>
+        <li>The "contact" column contains linked names.</li>
+        <li>The text above the table reads "Current job vacancies:" </li>
+      </ul>
+    </li>
+  </ol>
+  <h3>Contractor tab</h3>
+  <p>The tab panel contains the following:</p>
+  <ol>
+    <li>A small heading, with the text "Contractors".</li>
+    <li>Three paragraphs of text.</li>
+    <li>An image of a business man folding his arms, and the text "Mark Smith, Founder and CEO".</li>
+    <li>The image has a custom tooltip that appears on hover and focus. The tooltip text reads: <blockquote>Objectively
+        innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing
+        procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge
+        deliverables. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely
+        deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional
+        solutions.</blockquote>
+    </li>
+  </ol>
+  <h2>Carousel</h2>
+  <p>An automatically updating animated carousel, containing three slides: "Customer satisfaction", "Risk management",
+    and "Client support". Each carousel slide contains a stock photo, a paragraph of text, and a "read more" link.</p>
+  <h3>Our publications</h3>
+  <p>This section contains the following:</p>
+  <ol>
+    <li>A small heading, with the text "Our publications".</li>
+    <li>Instructional text: "Note: our top rated articles are highlighted like this". The word "this" is styled as bold
+      white text with a blue background.</li>
+    <li>A list of publication titles and authors. Some of them are styled as bold white text with a blue background.
+    </li>
+  </ol>
+  <h2>We'd love to hear from you!</h2>
+  <p>This is a form, that contains the following sections:</p>
+  <h3>Personal details</h3>
+  <p>This section contains three fields: "First name", "Last name", and "Your feedback". The first two fields have a red
+    asterisk to the right of them. The third field has a formatting hint below it. When the form is submitted, invalid
+    fields are indicated through a red border.</p>
+  <h3>Additional details</h3>
+  <p>This section contains the following:</p>
+  <ul>
+    <li>A radio button group containing three radio buttons. Above them is a group label with the text "Preferred
+      Contact Method". The radio buttons are labeled "By phone", "By mail", and "By letter".</li>
+    <li>A submit button. When the form is submitted without errors, a toast message appears at the top of the screen for
+      a few seconds. The toast message reads "We will respond within 24 hours. Your ticket number is 43556322". The
+      number at the end is a link.</li>
+  </ul>
+
+  <p>When the form is submitted without selecting a radio button, red warning text will appear above the radio group
+    urging the user to make a selection. Selecting a radio button dynamically changes the contents of the rest of the
+    form section, described in in more detail below.</p>
+
+  <h4>By Phone</h4>
+  <p>If the "by phone" option is selected, the following fields will appear below the radio group:</p>
+  <ol>
+    <li>A text field labeled "phone number". The field has a formatting hint below the field.</li>
+    <li>
+      A select list labeled "phone type".
+    </li>
+  </ol>
+  <h4>By Email</h4>
+  <p>If the "by email" option is selected, the following fields will appear below the radio group:</p>
+  <ol>
+    <li>A text field labeled "email address".</li>
+    <li>
+      A button labeled "send a copy". The button can be toggled on or off, which is visually indicated by a checkmark
+      next to the button label.
+    </li>
+    <li>A textfield labeled "Email Address to Copy". When the "send a copy" button is not pressed, this field looks
+      faded can cannot receive focus by clicking on it.</li>
+  </ol>
+  <h4>By Letter</h4>
+  <p>If the "by letter" option is selected, the following fields will appear below the radio group:</p>
+  <ol>
+    <li>A text field labeled "Street address".</li>
+    <li>
+      A button labeled "More Address Details". The button functions as a toggle button that shows or hides two extra
+      fields: "zip code" and "city". Toggling the button does not change its visual appearance.
+    </li>
+  </ol>
+  <h2>Footer</h2>
+  <p>The page footer is styled with a dark gray background and semi-transparent white text and icons (which appears as a
+    light gray color). The footer contains four columns, each of which contains a small heading and a list of links. The
+    second column contains social media icons in the last list item.</p>
+
+  <h2>Sticky footer</h2>
+  <p>There is a permanently visible sticky footer that is fixed to the bottom of the screen, regardless of scrolling
+    position. This sticky footer contains an icon of an alarm bell, and the text "Don't miss out! Only 1 week left in
+    our annual sale! Click here to find out more". The word "here" is a link. The background color is aqua, the text
+    color is white, and the link color is yellow.</p>
+
+  <h2>Responsive behavior</h2>
+  <p>On smaller screens or larger browser zooming levels, the following responsive changes occur:</p>
+  <ul>
+    <li>
+      The navigation menu is hidden. Instead, there is a so called "hamburger" menu button (a button icon with three
+      horiontal lines). This button can be used to expand or collapse the navigation menu.
+    </li>
+    <li>Sections that were laid out side by side are not laid out as a single column.</li>
+    <li>Carousel slides no longer show their textual contents, just the stock photos.</li>
+  </ul>
+</body>
+
+</html>
