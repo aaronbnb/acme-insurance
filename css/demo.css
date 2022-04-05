@@ -2,6 +2,24 @@
     display: none;
 }
 
+.revised {
+    text-decoration: line-through;
+}
+
+.approved {
+    padding: 0.2em;
+    background-color: #7bf06b;
+}
+
+.rejected {
+    padding: 0.2em;
+    background-color: #f0746b;
+}
+
+.emphasized {
+    text-decoration: underline;
+}
+
 .hero {
     background: url(../images/rawpixel-659505-unsplash.jpg);
     background-size: cover;
@@ -9,6 +27,10 @@
 
 .hero-title {
     color: #696969;
+}
+
+#species-text::after {
+    content: "Species";
 }
 
 .nav-item.active a {

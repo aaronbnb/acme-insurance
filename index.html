@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/demo.css">
   <title>-- Welcome! --</title>
+
+  <script src="node_modules/axe-core/axe.min.js"></script>
 </head>
 
 <body>
@@ -16,6 +18,20 @@
   Music promoted by https://www.free-stock-music.com
   Creative Commons Attribution 3.0 Unported License
   https://creativecommons.org/licenses/by/3.0/deed.en_US -->
+  <div class="modal-dialog" role="dialog" aria-modal="true" style="opacity: 0 !important;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Your requested insurance quote is invalid. You live in a state that does not allow a cat weighing more than 100 pounds to be owned as a household pet.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Refer to the Animal Control Board directive 2.3.1. If you have questions, feel free to reach out to our support team.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
   <audio id="upbeat-motivation-tune" src="audio/newhoftechnology-soft-corporate.mp3" autoplay></audio>
   <div id="landscape-overlay" class="bg-light">
     <div class="container">
@@ -112,21 +128,30 @@
                     <p>Our approach to solving your problems:</p>
                     <div class="row justify-content-between text-center">
                       <div class="step col-12 col-lg bg-light p-5 order-5">
-                        Solutions
+                        10% Co-Insurance
                       </div>
                       <div class="step-arrow col-12 col-lg-auto py-lg-5 order-2">
-                        <i class="fas fa-plus" title="plus"></i>
+                        <i class="fas fa-minus" title="plus"></i>
                       </div>
                       <div class="step col-12 col-lg bg-light p-5 order-3">
-                        Us
+                        Out-of-pocket expense
                       </div>
                       <div class="step-arrow col-12 col-lg-auto py-lg-5 order-4">
                         <i class="fas fa-equals" title="equals"></i>
                       </div>
                       <div class="step col-12 col-lg bg-light p-5 order-1">
-                        Problems
+                        Medicare Advantage reimbursement
                       </div>
                     </div>
+                    <p>Here's the state of coverage for the 5 most popular medications</p>
+                      <ul>
+                        <li class="approved">Prilosec</li>
+                        <li class="rejected">Vyvanse</li>
+                        <li class="approved">Lipitor</li>
+                        <li class="approved">Lexapro</li>
+                      </ul>
+                    <p>Generics are available for all cholesterol treatments <del>and anti-depressants</del></p>
+                    <p>Discount offer available in Arkansas, <span class="revised">California,</span> Connecticut, Oklahoma, Texas </p>
                   </div>
                   <div class="tab-pane fade" id="panel2">
                     <h3>Staff</h3>
@@ -175,7 +200,7 @@
                           Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
                       </div>
                       <div class="col-12 col-lg-4">
-                        <img tabindex="0" id="ceo-portrait" class="img-fluid" src="images/ali-morshedlou-566510-unsplash.jpg" alt="file566510_assxwcadq3cewevwe" data-toggle="tooltip" data-placement="left" data-html="true" data-trigger="hover" title="<q>Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</q>">
+                        <img tabindex="0" id="ceo-portrait" class="img-fluid" src="images/ali-morshedlou-566510-unsplash.jpg" alt="file566510_assxwcadq3cewevwe.png" data-toggle="tooltip" data-placement="left" data-html="true" data-trigger="hover" title="<q>Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</q>">
                       </div>
                     </div>
                   </div>
@@ -252,6 +277,8 @@
             </div>
           </div>
         </div>
+        <iframe src="https://aaronbnb.github.io/hot-restaurant/" height="500" width="500"></iframe>
+        </iframe>
         <form id="feedback-form" novalidate>
           <div class="row mt-3 bg-light rounded">
             <div class="col">
@@ -279,6 +306,33 @@
                   <div class="invalid-feedback"></div>
                 </div>
               </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <label class="form-label" aria-hidden="true" for="occupation">Occupation</label>
+                  <input type="text" class="form-control" name="occupation" placeholder="Mailman, accountant, etc." minlength="2" id="occupation" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <label class="form-label" style="visibility:hidden;" for="pet">Pet name</label>
+                  <input type="text" class="form-control" minlength="2" required id="pet">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <label class="form-label" style="visibility:hidden;" id="species-text" for="species"></label>
+                  <input type="text" class="form-control" minlength="2" required id="species">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <label class="form-label" style="visibility:hidden;" id="domestic-text" for="domestic"></label>
+                  <input type="checkbox" class="form-control" minlength="2" required id="domestic" aria-label="Asian Pet">
+                  <span>Asian Pet</span>
+                  <span class="btn btn-light border-primary" aria-label="More info on Asian Pet Eligibiliity"><i class="fas fa-circle-info"></i></span>
+                </div>
+              </div>
+              <div tabindex="0">Emotional Support License</div>
               <div class="form-group">
                 <textarea class="toValidate form-control required" rows="10" id="comment" tabindex="20" placeholder="Your feedback" minlength="10" maxlength="300" required></textarea>
                 <small class="form-text text-muted">
@@ -312,6 +366,23 @@
                   <label for="extraOptions3" class="form-check-label">By letter</label>
                 </div>
               </div>
+              <div class="col d-none text-danger" id="makeASelectionWarning" tabindex="25">
+                Special Certification
+              </div>
+              <div class="form-check form-check-inline col">
+                <input type="radio" id="extraOptions4" name="extraOptions" value="1" class="form-check-input" tabindex="30">
+                <label for="extraOptions4" class="form-check-label">Captive Wildlife</label>
+              </div>
+              <div class="form-check form-check-inline col">
+                <input type="radio" id="extraOptions4" name="extraOptions" value="2" class="form-check-input" tabindex="40">
+                <label for="extraOptions4" class="form-check-label">Zoological Research</label>
+              </div>
+              <div class="form-check form-check-inline col">
+                <input type="radio" id="extraOptions4" name="extraOptions" value="3" class="form-check-input" tabindex="50">
+                <label for="extraOptions4" class="form-check-label">None/don't know</label>
+              </div>
+            </div>
+
               <div class="row">
                 <div class="col d-none extraOptions" id="options1">
                   <div class="form-group">
