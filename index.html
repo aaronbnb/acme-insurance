@@ -525,6 +525,18 @@
   <script src="js/jquery-3.3.1.slim.min.js"></script>
   <script src="bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
   <script src="js/demo.js"></script>
+  <script type="text/javascript">
+    axe
+      .run()
+      .then(results => {
+        var strResults = JSON.stringify(results)
+        console.dir(results);
+        console.log(strResults);
+      })
+      .catch(err => {
+        console.error('Something bad happened:', err.message);
+      });	
+    </script>
 </body>
 
 </html>
