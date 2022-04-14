@@ -26,12 +26,16 @@
 <body>
   <h1>NavigationLinkValidLabel Tests</h1>
   <h2>1. Visible text "Learn more"</h2>
-  <a href="#">Learn More</a>
+  <a href="#" example="1">Learn More</a>
   <h2>2. Visible text "Learn more + [further description]"</h2>
-  <a href="#">Learn More About Dolphins</a>
+  <a href="#" example="2">Learn More About Dolphins</a>
   <h2>3. Visible text with visually hidden text</h2>
-  <a href="#">Learn More<span class="sr-only">About Dolphins</span></a>
+  <a href="#" example="3">Learn More<span class="sr-only">About Dolphins</span></a>
   <h2>4. Visible text with more descriptive aria-label attribute</h2>
-  <a href="#" aria-label="learn more about dolphins">Learn More</a>
+  <a href="#" example="4" aria-label="learn more about dolphins">Learn More</a>
+  <h2>5. aria-label attribute "learn more"</h2>
+  <a href="#" example="5" aria-label="Learn more" example="1"><img src="/learn-more.png" alt></a>
+  <h2>6. image-based link where img has alt="learn more"</h2>
+  <a href="#" example="6"><img src="/learn-more.png" alt="learn more"></a>
 </body>
 </html>
