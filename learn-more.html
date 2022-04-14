@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/demo.css">
+  <title>-- Welcome! --</title>
+  <style>
+    .sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+  </style>
+  <script src="node_modules/axe-core/axe.min.js"></script>
+</head>
+
+<body>
+  <h1>NavigationLinkValidLabel Tests</h1>
+  <h2>1. Visible text "Learn more"</h2>
+  <a href="#">Learn More</a>
+  <h2>2. Visible text "Learn more + [further description]"</h2>
+  <a href="#">Learn More About Dolphins</a>
+  <h2>3. Visible text with visually hidden text</h2>
+  <a href="#">Learn More<span class="sr-only">About Dolphins</span></a>
+  <h2>4. Visible text with more descriptive aria-label attribute</h2>
+  <a href="#" aria-label="learn more about dolphins">Learn More</a>
+</body>
+</html>
