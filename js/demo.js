@@ -1,6 +1,12 @@
 $( function () {
   window.setInterval( checkForLandscape, 100 );
 
+  $("#allow,#deny").each(function(){
+    $(this).click(function(){
+       $('#cookie').hide();
+    });
+});
+  
   function checkForLandscape() {
     if ( screen.width > 1000 ) {
       return;
