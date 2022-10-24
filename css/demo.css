@@ -16,6 +16,10 @@
     background-color: #f0746b;
 }
 
+.hidden-body {
+    display: none;
+}
+
 .emphasized {
     text-decoration: underline;
 }
