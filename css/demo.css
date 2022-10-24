@@ -11,6 +11,10 @@
     background-color: #7bf06b;
 }
 
+.hidden-body{
+    display: none;
+}
+
 .rejected {
     padding: 0.2em;
     background-color: #f0746b;
