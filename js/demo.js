@@ -16,9 +16,11 @@ $( function () {
       $( "html" ).addClass( "is-portrait-oriented" ).removeClass( "is-landscape-oriented" );
     }
   }
-
-  $( "#upbeat-motivation-tune" ).get( 0 ).volume = 0.1
+setTimeout(() => {
+  $( "#upbeat-motivation-tune" ).get( 0 ).volume = 0.1;
   $( "#upbeat-motivation-tune" ).get( 0 ).play();
+}, 5000)
+  
 
   $( "#ceo-portrait" ).tooltip().focus( function ( e ) {
     $( this ).tooltip( "show" );
