@@ -7,13 +7,13 @@
         "name": "axe"
     },
     "testEnvironment": {
-        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36",
         "windowWidth": 1036,
         "windowHeight": 528,
         "orientationAngle": 0,
         "orientationType": "landscape-primary"
     },
-    "timestamp": "2022-04-10T23:36:00.472Z",
+    "timestamp": "2022-06-12T01:54:33.498Z",
     "url": "https://aaronbnb.github.io/acme-insurance/",
     "toolOptions": {
         "reporter": "v1"
@@ -628,7 +628,7 @@
                         }
                     ],
                     "impact": null,
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
                     ]
@@ -694,7 +694,7 @@
                         }
                     ],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -727,7 +727,7 @@
                         }
                     ],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -760,7 +760,7 @@
                         }
                     ],
                     "impact": null,
-                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
+                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
                     "target": [
                         "iframe",
                         ".navbar-toggler"
@@ -825,7 +825,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
                     ]
@@ -843,9 +843,9 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-bell fa-w-14 float-left\" style=\"font-size: 3rem; margin-right: 30px;\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"bell\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
                     "target": [
-                        ".fa-bell"
+                        "#cookie"
                     ]
                 },
                 {
@@ -861,7 +861,25 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-fingerprint fa-w-16 float-left\" style=\"font-size: 3rem; margin-right: 30px;\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"fingerprint\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" data-fa-i2svg=\"\">",
+                    "target": [
+                        ".fa-fingerprint"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "aria-allowed-role",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "minor",
+                            "message": "ARIA role is allowed for given element"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -879,7 +897,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -1121,9 +1139,9 @@
                     ],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-bell fa-w-14 float-left\" style=\"font-size: 3rem; margin-right: 30px;\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"bell\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-fingerprint fa-w-16 float-left\" style=\"font-size: 3rem; margin-right: 30px;\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"fingerprint\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" data-fa-i2svg=\"\">",
                     "target": [
-                        ".fa-bell"
+                        ".fa-fingerprint"
                     ]
                 },
                 {
@@ -1507,9 +1525,27 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "aria-required-attr",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "critical",
+                            "message": "All required ARIA attributes are present"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
+                    "target": [
+                        "#cookie"
                     ]
                 },
                 {
@@ -1543,7 +1579,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -1561,7 +1597,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -1657,7 +1693,7 @@
                         }
                     ],
                     "impact": null,
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
                     ]
@@ -1703,7 +1739,53 @@
                         }
                     ],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
+                    "target": [
+                        "#cookie"
+                    ]
+                },
+                {
+                    "any": [],
+                    "all": [],
+                    "none": [
+                        {
+                            "id": "fallbackrole",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Only one role value used"
+                        },
+                        {
+                            "id": "invalidrole",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "critical",
+                            "message": "ARIA role is valid"
+                        },
+                        {
+                            "id": "abstractrole",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Abstract roles are not used"
+                        },
+                        {
+                            "id": "unsupportedrole",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "critical",
+                            "message": "ARIA role is supported"
+                        },
+                        {
+                            "id": "deprecatedrole",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "minor",
+                            "message": "ARIA role is not deprecated"
+                        }
+                    ],
+                    "impact": null,
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -1749,7 +1831,7 @@
                         }
                     ],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -1887,7 +1969,7 @@
                     ],
                     "none": [],
                     "impact": null,
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
                     ]
@@ -1951,7 +2033,7 @@
                     ],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -1983,7 +2065,7 @@
                     ],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -2015,7 +2097,7 @@
                     ],
                     "none": [],
                     "impact": null,
-                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
+                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
                     "target": [
                         "iframe",
                         ".navbar-toggler"
@@ -2112,7 +2194,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
                     ]
@@ -2148,7 +2230,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -2166,7 +2248,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -2184,7 +2266,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
+                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
                     "target": [
                         "iframe",
                         ".navbar-toggler"
@@ -2286,7 +2368,7 @@
                     ],
                     "none": [],
                     "impact": null,
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
                     ]
@@ -2304,9 +2386,9 @@
                     ],
                     "none": [],
                     "impact": null,
-                    "html": "<div style=\"margin-left: 3rem\">\n        <h4 class=\"m-0 p-0\">Don't miss out!</h4>\n        <p class=\"m-0 p-0\">Only 1 week left in our annual sale! Click <a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a> to find out more.</p>\n      </div>",
+                    "html": "<div style=\"margin-left: 3rem\">",
                     "target": [
-                        ".sticky-footer > div"
+                        "#cookie > div"
                     ]
                 },
                 {
@@ -2331,7 +2413,7 @@
         },
         {
             "id": "button-name",
-            "impact": null,
+            "impact": "critical",
             "tags": [
                 "cat.name-role-value",
                 "wcag2a",
@@ -2378,25 +2460,6 @@
                     "html": "<button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>",
                     "target": [
                         ".btn-secondary"
-                    ]
-                },
-                {
-                    "any": [
-                        {
-                            "id": "aria-label",
-                            "data": null,
-                            "relatedNodes": [],
-                            "impact": "serious",
-                            "message": "aria-label attribute exists and is not empty"
-                        }
-                    ],
-                    "all": [],
-                    "none": [],
-                    "impact": null,
-                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
-                    "target": [
-                        "iframe",
-                        ".navbar-toggler"
                     ]
                 },
                 {
@@ -2466,13 +2529,13 @@
                             "data": null,
                             "relatedNodes": [
                                 {
-                                    "html": "<h5 class=\"modal-title\">Your requested insurance quote is invalid. You live in a state that does not allow a cat weighing more than 100 pounds to be owned as a household pet.</h5>",
+                                    "html": "<h5 class=\"modal-title\">Your requested insurance quote is invalid. You live in a state that does not allow exotic pets such as cats weighing more than 100 pounds to be owned as a household pet.</h5>",
                                     "target": [
                                         ".modal-title"
                                     ]
                                 },
                                 {
-                                    "html": "<h4 class=\"m-0 p-0\">Don't miss out!</h4>",
+                                    "html": "<h4 class=\"m-0 p-0\">This website uses cookies</h4>",
                                     "target": [
                                         "h4"
                                     ]
@@ -2579,7 +2642,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<h4 class=\"m-0 p-0\">Don't miss out!</h4>",
+                    "html": "<h4 class=\"m-0 p-0\">This website uses cookies</h4>",
                     "target": [
                         "h4"
                     ]
@@ -3295,15 +3358,15 @@
                             "id": "color-contrast",
                             "data": {
                                 "fgColor": "#000000",
-                                "bgColor": "#efefef",
-                                "contrastRatio": 18.26,
+                                "bgColor": "#f0f0f0",
+                                "contrastRatio": 18.42,
                                 "fontSize": "12.0pt (16px)",
                                 "fontWeight": "normal",
                                 "expectedContrastRatio": "4.5:1"
                             },
                             "relatedNodes": [],
                             "impact": "serious",
-                            "message": "Element has sufficient color contrast of 18.26"
+                            "message": "Element has sufficient color contrast of 18.42"
                         }
                     ],
                     "all": [],
@@ -3940,6 +4003,42 @@
                     "target": [
                         "#city"
                     ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "color-contrast",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of ${data.contrastRatio}"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<input type=\"text\" class=\"form-control\" id=\"exp\" required=\"\" style=\"display:none!important;\">",
+                    "target": [
+                        "#exp"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "color-contrast",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of ${data.contrastRatio}"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<input type=\"text\" class=\"form-control\" id=\"git\" required=\"\" style=\"display:none!important;\">",
+                    "target": [
+                        "#git"
+                    ]
                 }
             ]
         },
@@ -3988,6 +4087,42 @@
             "help": "IDs of active elements must be unique",
             "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/duplicate-id-active?application=webdriverjs",
             "nodes": [
+                {
+                    "any": [
+                        {
+                            "id": "duplicate-id-active",
+                            "data": "allow",
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Document has no active elements that share the same id attribute"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\" id=\"allow\">Allow</a>",
+                    "target": [
+                        "#allow"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "duplicate-id-active",
+                            "data": "deny",
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Document has no active elements that share the same id attribute"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<a tabindex=\"3\" href=\"#\" id=\"deny\">Deny</a>",
+                    "target": [
+                        "#deny"
+                    ]
+                },
                 {
                     "any": [
                         {
@@ -4061,7 +4196,7 @@
                     "any": [
                         {
                             "id": "duplicate-id-aria",
-                            "data": "svg-inline--fa-title-mZjnfGAbVGcz",
+                            "data": "svg-inline--fa-title-NwguYShEaDu1",
                             "relatedNodes": [],
                             "impact": "critical",
                             "message": "Document has no elements referenced with ARIA or labels that share the same id attribute"
@@ -4070,16 +4205,16 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<title id=\"svg-inline--fa-title-mZjnfGAbVGcz\">plus</title>",
+                    "html": "<title id=\"svg-inline--fa-title-NwguYShEaDu1\">plus</title>",
                     "target": [
-                        "#svg-inline--fa-title-mZjnfGAbVGcz"
+                        "#svg-inline--fa-title-NwguYShEaDu1"
                     ]
                 },
                 {
                     "any": [
                         {
                             "id": "duplicate-id-aria",
-                            "data": "svg-inline--fa-title-DEEXhi6sSycX",
+                            "data": "svg-inline--fa-title-BTCzykSr3s4M",
                             "relatedNodes": [],
                             "impact": "critical",
                             "message": "Document has no elements referenced with ARIA or labels that share the same id attribute"
@@ -4088,9 +4223,9 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<title id=\"svg-inline--fa-title-DEEXhi6sSycX\">equals</title>",
+                    "html": "<title id=\"svg-inline--fa-title-BTCzykSr3s4M\">equals</title>",
                     "target": [
-                        "#svg-inline--fa-title-DEEXhi6sSycX"
+                        "#svg-inline--fa-title-BTCzykSr3s4M"
                     ]
                 },
                 {
@@ -4347,6 +4482,24 @@
                     "target": [
                         "#city"
                     ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "duplicate-id-aria",
+                            "data": "exp",
+                            "relatedNodes": [],
+                            "impact": "critical",
+                            "message": "Document has no elements referenced with ARIA or labels that share the same id attribute"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<input type=\"text\" class=\"form-control\" id=\"exp\" required=\"\" style=\"display:none!important;\">",
+                    "target": [
+                        "#exp"
+                    ]
                 }
             ]
         },
@@ -4432,6 +4585,24 @@
                     "html": "<div data-delay=\"5000\" class=\"toast hide fade form-feedback-toast\" id=\"submission-success-status\">",
                     "target": [
                         "#submission-success-status"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "duplicate-id",
+                            "data": "cookie",
+                            "relatedNodes": [],
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
+                    "target": [
+                        "#cookie"
                     ]
                 },
                 {
@@ -4871,6 +5042,24 @@
                     "target": [
                         "#extraAddressFields"
                     ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "duplicate-id",
+                            "data": "git",
+                            "relatedNodes": [],
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<input type=\"text\" class=\"form-control\" id=\"git\" required=\"\" style=\"display:none!important;\">",
+                    "target": [
+                        "#git"
+                    ]
                 }
             ]
         },
@@ -4898,7 +5087,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<h5 class=\"modal-title\">Your requested insurance quote is invalid. You live in a state that does not allow a cat weighing more than 100 pounds to be owned as a household pet.</h5>",
+                    "html": "<h5 class=\"modal-title\">Your requested insurance quote is invalid. You live in a state that does not allow exotic pets such as cats weighing more than 100 pounds to be owned as a household pet.</h5>",
                     "target": [
                         ".modal-title"
                     ]
@@ -4916,7 +5105,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<h4 class=\"m-0 p-0\">Don't miss out!</h4>",
+                    "html": "<h4 class=\"m-0 p-0\">This website uses cookies</h4>",
                     "target": [
                         "h4"
                     ]
@@ -5468,7 +5657,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<h5 class=\"modal-title\">Your requested insurance quote is invalid. You live in a state that does not allow a cat weighing more than 100 pounds to be owned as a household pet.</h5>",
+                    "html": "<h5 class=\"modal-title\">Your requested insurance quote is invalid. You live in a state that does not allow exotic pets such as cats weighing more than 100 pounds to be owned as a household pet.</h5>",
                     "target": [
                         ".modal-title"
                     ]
@@ -5486,7 +5675,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<h4 class=\"m-0 p-0\">Don't miss out!</h4>",
+                    "html": "<h4 class=\"m-0 p-0\">This website uses cookies</h4>",
                     "target": [
                         "h4"
                     ]
@@ -5648,7 +5837,7 @@
                         {
                             "id": "identical-links-same-purpose",
                             "data": {
-                                "name": "here",
+                                "name": "allow",
                                 "urlProps": {
                                     "protocol": "http:",
                                     "hostname": "aaronbnb.github.io",
@@ -5666,9 +5855,38 @@
                     ],
                     "none": [],
                     "impact": null,
-                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a>",
+                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\" id=\"allow\">Allow</a>",
                     "target": [
-                        ".m-0.p-0:nth-child(2) > .text-warning[href=\"#\"]"
+                        "#allow"
+                    ]
+                },
+                {
+                    "any": [],
+                    "all": [
+                        {
+                            "id": "identical-links-same-purpose",
+                            "data": {
+                                "name": "deny",
+                                "urlProps": {
+                                    "protocol": "http:",
+                                    "hostname": "aaronbnb.github.io",
+                                    "port": "",
+                                    "pathname": "/acme-insurance/",
+                                    "search": {},
+                                    "hash": "",
+                                    "filename": ""
+                                }
+                            },
+                            "relatedNodes": [],
+                            "impact": "minor",
+                            "message": "There are no other links with the same name, that go to a different URL"
+                        }
+                    ],
+                    "none": [],
+                    "impact": null,
+                    "html": "<a tabindex=\"3\" href=\"#\" id=\"deny\">Deny</a>",
+                    "target": [
+                        "#deny"
                     ]
                 },
                 {
@@ -7588,9 +7806,35 @@
                         }
                     ],
                     "impact": null,
-                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a>",
+                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\" id=\"allow\">Allow</a>",
                     "target": [
-                        ".m-0.p-0:nth-child(2) > .text-warning[href=\"#\"]"
+                        "#allow"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "has-visible-text",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers"
+                        }
+                    ],
+                    "all": [],
+                    "none": [
+                        {
+                            "id": "focusable-no-name",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text"
+                        }
+                    ],
+                    "impact": null,
+                    "html": "<a tabindex=\"3\" href=\"#\" id=\"deny\">Deny</a>",
+                    "target": [
+                        "#deny"
                     ]
                 },
                 {
@@ -9578,7 +9822,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -9596,7 +9840,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -9668,7 +9912,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
+                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
                     "target": [
                         "iframe",
                         ".navbar-toggler"
@@ -9865,7 +10109,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
                     ]
@@ -9925,7 +10169,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<h5 class=\"modal-title\">Your requested insurance quote is invalid. You live in a state that does not allow a cat weighing more than 100 pounds to be owned as a household pet.</h5>",
+                    "html": "<h5 class=\"modal-title\">Your requested insurance quote is invalid. You live in a state that does not allow exotic pets such as cats weighing more than 100 pounds to be owned as a household pet.</h5>",
                     "target": [
                         ".modal-title"
                     ]
@@ -10205,9 +10449,9 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<div class=\"sticky-footer bg-info text-white p-4\">",
+                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
                     "target": [
-                        ".sticky-footer"
+                        "#cookie"
                     ]
                 },
                 {
@@ -10225,7 +10469,27 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<h4 class=\"m-0 p-0\">Don't miss out!</h4>",
+                    "html": "<div style=\"margin-left: 3rem\">",
+                    "target": [
+                        "#cookie > div"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "region",
+                            "data": {
+                                "isIframe": false
+                            },
+                            "relatedNodes": [],
+                            "impact": "moderate",
+                            "message": "All page content is contained by landmarks"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<h4 class=\"m-0 p-0\">This website uses cookies</h4>",
                     "target": [
                         "h4"
                     ]
@@ -10245,7 +10509,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<p class=\"m-0 p-0\">Only 1 week left in our annual sale! Click <a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a> to find out more.</p>",
+                    "html": "<p class=\"m-0 p-0\">",
                     "target": [
                         ".m-0.p-0:nth-child(2)"
                     ]
@@ -10265,9 +10529,49 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a>",
+                    "html": "<div><a tabindex=\"2\" href=\"#\" class=\"text-warning\" id=\"allow\">Allow</a> <a tabindex=\"3\" href=\"#\" id=\"deny\">Deny</a></div>",
                     "target": [
-                        ".m-0.p-0:nth-child(2) > .text-warning[href=\"#\"]"
+                        "#cookie > div > div"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "region",
+                            "data": {
+                                "isIframe": false
+                            },
+                            "relatedNodes": [],
+                            "impact": "moderate",
+                            "message": "All page content is contained by landmarks"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\" id=\"allow\">Allow</a>",
+                    "target": [
+                        "#allow"
+                    ]
+                },
+                {
+                    "any": [
+                        {
+                            "id": "region",
+                            "data": {
+                                "isIframe": false
+                            },
+                            "relatedNodes": [],
+                            "impact": "moderate",
+                            "message": "All page content is contained by landmarks"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": null,
+                    "html": "<a tabindex=\"3\" href=\"#\" id=\"deny\">Deny</a>",
+                    "target": [
+                        "#deny"
                     ]
                 },
                 {
@@ -11005,7 +11309,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -11025,9 +11329,9 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<title id=\"svg-inline--fa-title-mZjnfGAbVGcz\">plus</title>",
+                    "html": "<title id=\"svg-inline--fa-title-NwguYShEaDu1\">plus</title>",
                     "target": [
-                        "#svg-inline--fa-title-mZjnfGAbVGcz"
+                        "#svg-inline--fa-title-NwguYShEaDu1"
                     ]
                 },
                 {
@@ -11085,7 +11389,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -11105,9 +11409,9 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<title id=\"svg-inline--fa-title-DEEXhi6sSycX\">equals</title>",
+                    "html": "<title id=\"svg-inline--fa-title-BTCzykSr3s4M\">equals</title>",
                     "target": [
-                        "#svg-inline--fa-title-DEEXhi6sSycX"
+                        "#svg-inline--fa-title-BTCzykSr3s4M"
                     ]
                 },
                 {
@@ -11667,7 +11971,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
+                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
                     "target": [
                         "iframe",
                         ".navbar-toggler"
@@ -13300,7 +13604,7 @@
                     "impact": null,
                     "html": "<a href=\"#\">",
                     "target": [
-                        "a[href=\"#\"]:nth-child(2)"
+                        "li:nth-child(6) > a[href=\"#\"]:nth-child(2)"
                     ]
                 },
                 {
@@ -14107,7 +14411,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-mZjnfGAbVGcz\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-minus fa-w-14\" title=\"plus\" aria-labelledby=\"svg-inline--fa-title-NwguYShEaDu1\" data-prefix=\"fas\" data-icon=\"minus\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-minus"
                     ]
@@ -14139,7 +14443,7 @@
                     "all": [],
                     "none": [],
                     "impact": null,
-                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-DEEXhi6sSycX\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
+                    "html": "<svg class=\"svg-inline--fa fa-equals fa-w-14\" title=\"equals\" aria-labelledby=\"svg-inline--fa-title-BTCzykSr3s4M\" data-prefix=\"fas\" data-icon=\"equals\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" data-fa-i2svg=\"\">",
                     "target": [
                         ".fa-equals"
                     ]
@@ -14265,6 +14569,77 @@
         }
     ],
     "incomplete": [
+        {
+            "id": "aria-hidden-focus",
+            "impact": "serious",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "wcag131"
+            ],
+            "description": "Ensures aria-hidden elements do not contain focusable elements",
+            "help": "ARIA hidden element must not contain focusable elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/aria-hidden-focus?application=webdriverjs",
+            "nodes": [
+                {
+                    "any": [],
+                    "all": [
+                        {
+                            "id": "focusable-modal-open",
+                            "data": null,
+                            "relatedNodes": [
+                                {
+                                    "html": "<a href=\"#\" class=\"text-white font-weight-bold\">'How to Succeed'<br><cite><small>Dr. Ella Hamick</small></cite></a>",
+                                    "target": [
+                                        ".list-group-item.active:nth-child(1) > .text-white.font-weight-bold[href=\"#\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"#\">5 tips for a clutter free office</a>",
+                                    "target": [
+                                        ".list-group-item:nth-child(2) > a[href=\"#\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"#\">Reversing adversity</a>",
+                                    "target": [
+                                        ".list-group-item:nth-child(3) > a[href=\"#\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"#\" class=\"text-white font-weight-bold\">'Somehow I Manage'<br><small><cite>Michael Scott</cite></small></a>",
+                                    "target": [
+                                        ".list-group-item.active:nth-child(4) > .text-white.font-weight-bold[href=\"#\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"#\">Achieving one goal each day</a>",
+                                    "target": [
+                                        ".list-group-item:nth-child(5) > a[href=\"#\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"#\" class=\"text-white font-weight-bold\">'Influenced thought, and how to utilize it'<br><cite><small>Douglas Gilliam</small></cite></a>",
+                                    "target": [
+                                        ".list-group-item.active:nth-child(6) > .text-white.font-weight-bold[href=\"#\"]"
+                                    ]
+                                }
+                            ],
+                            "impact": "serious",
+                            "message": "Check that focusable elements are not tabbable in the current state"
+                        }
+                    ],
+                    "none": [],
+                    "impact": "serious",
+                    "html": "<div class=\"col-lg-4\" role=\"content-sidebar\" aria-hidden=\"true\">",
+                    "target": [
+                        "div[role=\"content-sidebar\"]"
+                    ],
+                    "failureSummary": "Fix all of the following:\n  Check that focusable elements are not tabbable in the current state"
+                }
+            ]
+        },
         {
             "id": "color-contrast",
             "impact": "serious",
@@ -14694,82 +15069,46 @@
                     "all": [],
                     "none": [],
                     "impact": "serious",
-                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important;\">",
+                    "html": "<div class=\"modal-dialog\" role=\"dialog\" aria-modal=\"true\" style=\"opacity: 0 !important; position: absolute; top: -500px;\">",
                     "target": [
                         ".modal-dialog"
                     ],
                     "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
-                }
-            ]
-        },
-        {
-            "id": "aria-hidden-focus",
-            "impact": "serious",
-            "tags": [
-                "cat.name-role-value",
-                "wcag2a",
-                "wcag412",
-                "wcag131"
-            ],
-            "description": "Ensures aria-hidden elements do not contain focusable elements",
-            "help": "ARIA hidden element must not contain focusable elements",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/aria-hidden-focus?application=webdriverjs",
-            "nodes": [
+                },
                 {
-                    "any": [],
-                    "all": [
+                    "any": [
                         {
-                            "id": "focusable-not-tabbable",
+                            "id": "aria-label",
                             "data": null,
-                            "relatedNodes": [
-                                {
-                                    "html": "<a href=\"#\" class=\"text-white font-weight-bold\">'How to Succeed'<br><cite><small>Dr. Ella Hamick</small></cite></a>",
-                                    "target": [
-                                        ".list-group-item.active:nth-child(1) > .text-white.font-weight-bold[href=\"#\"]"
-                                    ]
-                                },
-                                {
-                                    "html": "<a href=\"#\">5 tips for a clutter free office</a>",
-                                    "target": [
-                                        ".list-group-item:nth-child(2) > a[href=\"#\"]"
-                                    ]
-                                },
-                                {
-                                    "html": "<a href=\"#\">Reversing adversity</a>",
-                                    "target": [
-                                        ".list-group-item:nth-child(3) > a[href=\"#\"]"
-                                    ]
-                                },
-                                {
-                                    "html": "<a href=\"#\" class=\"text-white font-weight-bold\">'Somehow I Manage'<br><small><cite>Michael Scott</cite></small></a>",
-                                    "target": [
-                                        ".list-group-item.active:nth-child(4) > .text-white.font-weight-bold[href=\"#\"]"
-                                    ]
-                                },
-                                {
-                                    "html": "<a href=\"#\">Achieving one goal each day</a>",
-                                    "target": [
-                                        ".list-group-item:nth-child(5) > a[href=\"#\"]"
-                                    ]
-                                },
-                                {
-                                    "html": "<a href=\"#\" class=\"text-white font-weight-bold\">'Influenced thought, and how to utilize it'<br><cite><small>Douglas Gilliam</small></cite></a>",
-                                    "target": [
-                                        ".list-group-item.active:nth-child(6) > .text-white.font-weight-bold[href=\"#\"]"
-                                    ]
-                                }
-                            ],
+                            "relatedNodes": [],
                             "impact": "serious",
-                            "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+                            "message": "aria-label attribute does not exist or is empty"
+                        },
+                        {
+                            "id": "aria-labelledby",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                        },
+                        {
+                            "id": "non-empty-title",
+                            "data": {
+                                "messageKey": "noAttr"
+                            },
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Element has no title attribute"
                         }
                     ],
+                    "all": [],
                     "none": [],
                     "impact": "serious",
-                    "html": "<div class=\"col-lg-4\" role=\"content-sidebar\" aria-hidden=\"true\">",
+                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
                     "target": [
-                        "div[role=\"content-sidebar\"]"
+                        "#cookie"
                     ],
-                    "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+                    "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
                 }
             ]
         },
@@ -14809,6 +15148,73 @@
             ]
         },
         {
+            "id": "button-name",
+            "impact": "critical",
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "ACT"
+            ],
+            "description": "Ensures buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/button-name?application=webdriverjs",
+            "nodes": [
+                {
+                    "any": [
+                        {
+                            "id": "button-has-visible-text",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "critical",
+                            "message": "Element does not have inner text that is visible to screen readers"
+                        },
+                        {
+                            "id": "aria-label",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "aria-label attribute does not exist or is empty"
+                        },
+                        {
+                            "id": "aria-labelledby",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                        },
+                        {
+                            "id": "non-empty-title",
+                            "data": {
+                                "messageKey": "noAttr"
+                            },
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Element has no title attribute"
+                        },
+                        {
+                            "id": "presentational-role",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": "critical",
+                    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>",
+                    "target": [
+                        "iframe",
+                        ".navbar-toggler"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+            ]
+        },
+        {
             "id": "color-contrast",
             "impact": "serious",
             "tags": [
@@ -14835,9 +15241,9 @@
                             },
                             "relatedNodes": [
                                 {
-                                    "html": "<div class=\"sticky-footer bg-info text-white p-4\">",
+                                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
                                     "target": [
-                                        ".sticky-footer"
+                                        "#cookie"
                                     ]
                                 }
                             ],
@@ -14848,7 +15254,7 @@
                     "all": [],
                     "none": [],
                     "impact": "serious",
-                    "html": "<p class=\"m-0 p-0\">Only 1 week left in our annual sale! Click <a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a> to find out more.</p>",
+                    "html": "<p class=\"m-0 p-0\">",
                     "target": [
                         ".m-0.p-0:nth-child(2)"
                     ],
@@ -14869,9 +15275,9 @@
                             },
                             "relatedNodes": [
                                 {
-                                    "html": "<div class=\"sticky-footer bg-info text-white p-4\">",
+                                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
                                     "target": [
-                                        ".sticky-footer"
+                                        "#cookie"
                                     ]
                                 }
                             ],
@@ -14882,11 +15288,45 @@
                     "all": [],
                     "none": [],
                     "impact": "serious",
-                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a>",
+                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\" id=\"allow\">Allow</a>",
                     "target": [
-                        ".m-0.p-0:nth-child(2) > .text-warning[href=\"#\"]"
+                        "#allow"
                     ],
                     "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.86 (foreground color: #ffc107, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                    "any": [
+                        {
+                            "id": "color-contrast",
+                            "data": {
+                                "fgColor": "#007bff",
+                                "bgColor": "#17a2b8",
+                                "contrastRatio": 1.3,
+                                "fontSize": "12.0pt (16px)",
+                                "fontWeight": "normal",
+                                "messageKey": null,
+                                "expectedContrastRatio": "4.5:1"
+                            },
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"sticky-footer bg-info text-white p-4\" role=\"dialog\" id=\"cookie\">",
+                                    "target": [
+                                        "#cookie"
+                                    ]
+                                }
+                            ],
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 1.3 (foreground color: #007bff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": "serious",
+                    "html": "<a tabindex=\"3\" href=\"#\" id=\"deny\">Deny</a>",
+                    "target": [
+                        "#deny"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.3 (foreground color: #007bff, background color: #17a2b8, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
                 },
                 {
                     "any": [
@@ -17109,7 +17549,7 @@
                     "impact": "serious",
                     "html": "<a href=\"#\">",
                     "target": [
-                        "a[href=\"#\"]:nth-child(2)"
+                        "li:nth-child(6) > a[href=\"#\"]:nth-child(2)"
                     ],
                     "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
                 },
@@ -17379,27 +17819,6 @@
                     "html": "<div data-delay=\"5000\" class=\"toast hide fade form-feedback-toast\" id=\"submission-success-status\">",
                     "target": [
                         "#submission-success-status"
-                    ],
-                    "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
-                },
-                {
-                    "any": [
-                        {
-                            "id": "region",
-                            "data": {
-                                "isIframe": false
-                            },
-                            "relatedNodes": [],
-                            "impact": "moderate",
-                            "message": "Some page content is not contained by landmarks"
-                        }
-                    ],
-                    "all": [],
-                    "none": [],
-                    "impact": "moderate",
-                    "html": "<div style=\"margin-left: 3rem\">\n        <h4 class=\"m-0 p-0\">Don't miss out!</h4>\n        <p class=\"m-0 p-0\">Only 1 week left in our annual sale! Click <a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a> to find out more.</p>\n      </div>",
-                    "target": [
-                        ".sticky-footer > div"
                     ],
                     "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
                 },
@@ -18483,9 +18902,28 @@
                     "all": [],
                     "none": [],
                     "impact": "serious",
-                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\">here</a>",
+                    "html": "<a tabindex=\"2\" href=\"#\" class=\"text-warning\" id=\"allow\">Allow</a>",
                     "target": [
-                        ".m-0.p-0:nth-child(2) > .text-warning[href=\"#\"]"
+                        "#allow"
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has a tabindex greater than 0"
+                },
+                {
+                    "any": [
+                        {
+                            "id": "tabindex",
+                            "data": null,
+                            "relatedNodes": [],
+                            "impact": "serious",
+                            "message": "Element has a tabindex greater than 0"
+                        }
+                    ],
+                    "all": [],
+                    "none": [],
+                    "impact": "serious",
+                    "html": "<a tabindex=\"3\" href=\"#\" id=\"deny\">Deny</a>",
+                    "target": [
+                        "#deny"
                     ],
                     "failureSummary": "Fix any of the following:\n  Element has a tabindex greater than 0"
                 },
