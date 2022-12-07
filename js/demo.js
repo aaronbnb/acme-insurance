@@ -16,10 +16,20 @@ $( function () {
       $( "html" ).addClass( "is-portrait-oriented" ).removeClass( "is-landscape-oriented" );
     }
   }
-setTimeout(() => {
+
+document.addEventListener('mousemove', (e) => {
+setTimeout(() => { musicAnimation();}, 5000);
+}, { once: true });
+
+function musicAnimation() {
+  console.log('running');
   $( "#upbeat-motivation-tune" ).get( 0 ).volume = 0.1;
   $( "#upbeat-motivation-tune" ).get( 0 ).play();
-}, 5000)
+  $('#music-icon').attr('class', 'music');
+  setTimeout(() => {
+    $('#music-icon').remove();
+  }, 5000);
+}
   
 
   $( "#ceo-portrait" ).tooltip().focus( function ( e ) {

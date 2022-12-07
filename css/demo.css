@@ -11,6 +11,36 @@
     background-color: #7bf06b;
 }
 
+.music-onload {
+    display: none;
+}
+
+.music {
+    border-style: solid #3f3f3f;
+    border-radius: 25%;
+    position: fixed;
+    padding: 7px;
+    bottom: 20;
+    right: 20;
+    max-width: 200px;
+    z-index: 999;
+    transition: all .4s ease-in-out;
+    animation: aaron 1.5s infinite;
+    
+}
+
+@keyframes aaron {
+    0% {
+        transform: rotate(35deg);
+    }
+    50% {
+        transform: rotate(-35deg);
+    }
+    100% {
+        transform: rotate(35deg);
+    }
+  }
+
 .hidden-body{
     display: none;
 }
